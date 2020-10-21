@@ -1,4 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background: violet;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.container{
+background: white;
+display: flex;
+flex-direction: column;
+border-radius: 30px;
+width: 600px;
+padding: 50px;
+margin-top: 50px;
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.name{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.profile-icon{
+    background: whitesmoke;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
 
+.score{
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.score > .span{
+    margin: 0 5px;
+}
+.round-goals{
+    font-size: large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strike{
+    display: flex;
+    flex-direction: col;
+    border: none;
+    border-radius: 25px;
+    font-size: small;
+    background: linear-gradient(135deg, red, yellow);
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+#try{
+    display: flex;
+    flex-direction: col;
+    border: none;
+    border-radius: 25px;
+    font-size: small;
+    background: linear-gradient(100deg, red, yellow);
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
